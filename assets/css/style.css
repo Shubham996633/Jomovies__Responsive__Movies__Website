@@ -1124,6 +1124,10 @@ button:active { transform: scale(.9); }
     /* height: 300px; */
 }
 
+.footer__copy{
+    margin-top: -9rem;
+    
+}
 .favourite__card{
     cursor: pointer;
 }
