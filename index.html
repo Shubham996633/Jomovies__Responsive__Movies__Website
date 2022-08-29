@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoMovies Responsive Movies Website</title>
+
+                            <!-- Favicon -->
+    
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+                            <!-- Boxicons -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+                        <!-- Remix Icons -->
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+                        <!-- Swiper CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+                            <!-- CSS -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/icons8-hotstar-144.png" alt="" class="nav__logo-img">
+                JoMovies 
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                     
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Discover</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#favourite" class="nav__link">Favourite</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#search" class="nav__link">Search</a>
+                    </li>
+
+            
+
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="home container" id="home">
+            <div class="swiper home-swiper">
+                <div class="swiper-wrapper">
+
+
+
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__group">
+                                <img src="" alt="" class="home__img trending__one-img">
+                                <div class="home__indicator"></div>
+
+                                <div class="home__details-img">
+                                    <h4 class="home__details-title trending__one-date">Date</h4>
+                                </div>
+                            </div>
+                            <div class="home__data">
+                                <h3 class="home__subtitle ">#1 Trending </h3>
+                                <h1 class="home__title trending__one-title"> Name</h1>
+                                <p class="home__description trending__one-description"> Description
+                                </p>
+
+                                <div class="home__buttons">
+                                    <a href="#trending" class="button trendingbutton">Show More</a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                  
+
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__group">
+                                <img src="" alt="" class="home__img movie__popular-img">
+                                <div class="home__indicator"></div>
+
+                                <div class="home__details-img">
+                                    <h4 class="home__details-title movie__popular-date">Date</h4>
+                                </div>
+                            </div>
+                            <div class="home__data">
+                                <h3 class="home__subtitle movie__popular-subtitle">#2 Popular Movie</h3>
+                                <h1 class="home__title movie__popular-title">Movie Name</h1>
+                                <p class="home__description movie__popular-description">Movie Description
+                                </p>
+
+                                <div class="home__buttons">
+                                    <a href="#popular" class="button">Show More</a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                   
+
+                    <section class="swiper-slide">
+                        <div class="home__content grid">
+                            <div class="home__group">
+                                <img src="" alt="" class="home__img series__popular-img">
+                                <div class="home__indicator"></div>
+
+                                <div class="home__details-img">
+                                    <h4 class="home__details-title series__popular-date">Date</h4>
+                                </div>
+                            </div>
+                            <div class="home__data">
+                                <h3 class="home__subtitle ">#3 Popular TV Series</h3>
+                                <h1 class="home__title series__popular-title">Series Name</h1>
+                                <p class="home__description series__latest-description">Series Description
+                                </p>
+
+                                <div class="home__buttons">
+                                    <a href="#tvseries" class="button">Show More</a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    
+                    
+
+                    
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+     
+
+
+
+        
+        <!--==================== DISCOVER ====================-->
+        <section class="discover section" id="discover">
+            <div class="discover_section">
+
+                <h2 class="section__title" id ='trending'>Discover the Trending Movies</h2>
+            
+                <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper slider-trending" >
+                    <!--==================== DISCOVER 1 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Movie 1</h2>
+                            <span class="discover__description">Rate</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 2 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src=" " alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Movie 1</h2>
+                            <span class="discover__description">Rate</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 3 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src=" " alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Movie 1</h2>
+                            <span class="discover__description">Rate</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 4 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src=" " alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Movie 1</h2>
+                            <span class="discover__description">Rate</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 5 ====================-->
+
+                    <div class="discover__card swiper-slide">
+                        <img src=" " alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Movie 1</h2>
+                            <span class="discover__description">Rate</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 6 ====================-->
+
+                    <div class="discover__card swiper-slide">
+                        <img src=" " alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Movie 1</h2>
+                            <span class="discover__description">Rate</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 7 ====================-->
+
+                    <div class="discover__card swiper-slide">
+                        <img src=" " alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Movie 1</h2>
+                            <span class="discover__description">Rate</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 8 ====================-->
+
+                    <div class="discover__card swiper-slide">
+                        <img src=" " alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Movie 1</h2>
+                            <span class="discover__description">Rate</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 9 ====================-->
+
+                    <div class="discover__card swiper-slide">
+                        <img src=" " alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Movie 1</h2>
+                            <span class="discover__description">Rate</span>
+                        </div>
+                    </div>
+
+
+                </div>
+                </div>
+            </div>
+            <br><br><br>
+
+
+
+
+
+            <div class="discover_section">
+
+                <h2 class="section__title " id ='popular'>Discover the Popular Movies</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper slider-popular">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br>
+
+
+
+            <div class="discover_section">
+                
+                <h2 class="section__title" id ='tvseries'>Discover the Popular Web Series</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper slider-tvseries">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        <div class="discover__card swiper-slide">
+                            <img src=" " alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Movie 1</h2>
+                                <span class="discover__description">Rate</span>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+            <br><br><br>
+
+        
+
+
+        </section>
+
+
+
+        <section class="steps section container"  id="favourite">
+            <h2 class="section__title" id ='trending'>Find Your Favourite That You Saved</h2>
+            <br><br>
+
+            <div class="steps__bg">
+                <h2 class="section__title-center steps-title">
+                    Your Favourite Movies You Saved (If You Saved Any It Will Show here)
+                </h2>
+
+                <div class="steps__container grid favourite-slider">
+                    <div class="steps__card">
+                        <div class="steps__card-number">01</div>
+                        <h3 class="steps__card-title">Choose Plant</h3>
+                        <p class="steps___card-description">
+                            We have several varieties plants you can choose from.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">02</div>
+                        <h3 class="steps__card-title">Place an order
+                        </h3>
+                        <p class="steps___card-description">
+                            Once your order is set, 
+                            we move to the next step which is the shipping.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">03</div>
+                        <h3 class="steps__card-title">Get plants delivered</h3>
+                        <p class="steps___card-description">
+                            Our delivery process is easy, 
+                            you receive the plant direct to your door.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+<br><br><br>
+
+            <div class="steps__bg">
+                <h2 class="section__title-center steps-title">
+                    Your Favourite Web-Series You Saved (If You Saved Any It Will Show here)
+                </h2>
+
+                <div class="steps__container grid favourite__series-slider">
+                    <div class="steps__card">
+                        <div class="steps__card-number">01</div>
+                        <h3 class="steps__card-title">Choose Plant</h3>
+                        <p class="steps___card-description">
+                            We have several varieties plants you can choose from.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">02</div>
+                        <h3 class="steps__card-title">Place an order
+                        </h3>
+                        <p class="steps___card-description">
+                            Once your order is set, 
+                            we move to the next step which is the shipping.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">03</div>
+                        <h3 class="steps__card-title">Get plants delivered</h3>
+                        <p class="steps___card-description">
+                            Our delivery process is easy, 
+                            you receive the plant direct to your door.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+   
+
+        <section class="section search container" id ="search">
+            <h2 class="section__title" id ='trending'>Search What You Want</h2>
+            <br><br>
+
+            <div class="steps__bg">
+
+
+
+                
+                    <h2 class="section__title">
+                        Search Here Movies 
+                    </h2>
+                    <p class="newsletter__description">
+                       Only Top 9 Movies Refreed By API Will Display and that only Movies For Web-Series Scroll Below
+                    </p>
+    
+                    <div class="home__search">
+                        <i class='bx bx-search-alt-2'></i>
+                        <input type="search" placeholder="Search by Name ..." class="home__search-input">
+                        <button class="button search__content">Search</button>
+                    </div>
+              
+                
+
+                <div class="steps__container grid search__movies">
+                    
+
+                </div>
+            </div>
+
+
+<br><br><br>
+            <div class="steps__bg">
+
+
+
+                
+                <h2 class="section__title">
+                    Search Here Web-Series 
+                </h2>
+                <p class="newsletter__description">
+                   Only Top 9 Web-Series Refreed By API Will Display and that only Web-Series For Movies Scroll Above
+                </p>
+
+                <div class="home__search">
+                    <i class='bx bx-search-alt-2'></i>
+                    <input type="search" placeholder="Search by Name ..." class="home__search-input-series">
+                    <button class="button search__content-series">Search</button>
+                </div>
+          
+            
+
+            <div class="steps__container grid search__series">
+                
+
+            </div>
+        </div>
+
+        </section>
+
+        <section class="subscribe section">
+            <div class="subscribe__container container">
+                <h1 class="subscribe__title">
+                    Get Started with JoMovies
+                </h1>
+                <p class="subscribe__description">
+                    The App is in Beta State and will be more user Freindly. Please Click On 'Enjoyed' If you Had.
+                </p>
+                <button href="" class="button subscribe__button" onclick="happy()">
+                   Enjoyed
+                </button>
+            </div>
+            
+        </section>
+
+     </main>
+     
+     
+     <div class="popup-container">
+        <span class="x-icon">&#10006;</span>
+        <div class="content">
+            <div class="left">
+                <div class="poster-img">
+                    <img src="https://unsplash.it/500/1000" alt="">
+                </div>
+                <div class="single-info">
+                    <span>Add to favorites:</span>
+                    <span class="heart-icon">&#9829;</span>
+                </div>
+            </div>
+            <div class="right">
+                <h1>Movie Title</h1>
+                <h3>Movie Tagline</h3>
+                <div class="single-info-container">
+                    <div class="single-info">
+                        <span>Language:</span>
+                        <span>English</span>
+                    </div>
+                    <div class="single-info">
+                        <span>Length:</span>
+                        <span>120 minutes</span>
+                    </div>
+                    <div class="single-info">
+                        <span>Rate:</span>
+                        <span>10 / 10</span>
+                    </div>
+                    <div class="single-info">
+                        <span>Budget:</span>
+                        <span>1350000$</span>
+                    </div>
+                    <div class="single-info">
+                        <span>Release Date:</span>
+                        <span>05-07-2022</span>
+                    </div>
+                </div>
+                <div class="genres">
+                    <h2>Genres</h2>
+                    <ul>
+                        <li>Action</li>
+                        <li>Drama</li>
+                        <li>Romance</li>
+                    </ul>
+                </div>
+                <div class="overview">
+                    <h2>Overview</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere necessitatibus, quos molestiae fuga voluptatem totam odit voluptates ullam et distinctio?</p>
+                </div>
+                <div class="trailer">
+                    <h2>Trailer</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Kmo8NLKkfcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+                
+    <footer class="footer section">
+           
+        <div class="footer__info container grid">
+            <span class="footer__copy">
+                &#169; Shubham Maurya. All rigths reserved
+            </span>
+            
+        </div>
+
+    </footer>   
+                    <!-- SCROLL UP -->
+ 
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+                    <!-- Sweet Alert -->
+
+    <script src="assets/js/sweetalert2.all.min.js"></script>
+                    <!-- Scroll Reveal -->
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+                    <!-- SWiper JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+                    <!-- Main JS -->
+    
+     <script src="assets/js/main.js"></script>               
+</body>
+</html>
