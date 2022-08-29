@@ -1,3 +1,13 @@
+// =================Loader=====================
+
+onload = () => {
+    const load =document.getElementById('load')
+    setTimeout(() =>{
+        load.style.display='none'
+    },4500)
+}
+
+
 // Show Menu
 
 const navMenu= document.getElementById('nav-menu'),
