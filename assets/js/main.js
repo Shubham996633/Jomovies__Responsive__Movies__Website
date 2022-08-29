@@ -378,8 +378,10 @@ async function check(card){
         }else{
             const main =  document.querySelector('.main')
             main.style.transform = 'scale(0)'
-            // const head =  document.querySelector('.header')
-            // head.style.transform = 'scale(0)'
+            const footer =  document.querySelector('.footer')
+            footer.style.transform = 'scale(0)'
+            const scrollup =  document.querySelector('.scrollup')
+            scrollup.style.transform = 'scale(0)'
             console.log('yo')
             show_popup(card)
         }
@@ -427,8 +429,10 @@ async function check_series(series_card){
         }else{
             const main =  document.querySelector('.main')
             main.style.transform = 'scale(0)'
-            // const head =  document.querySelector('.header')
-            // head.style.transform = 'scale(0)'
+            const footer =  document.querySelector('.footer')
+            footer.style.transform = 'scale(0)'
+            const scrollup =  document.querySelector('.scrollup')
+            scrollup.style.transform = 'scale(0)'
             console.log('yo')
             show_popup_series(series_card)
         }
@@ -547,9 +551,11 @@ async function show_popup (card) {
     x_icon.addEventListener('click', () => popup_container.classList.remove('show-popup'))
     x_icon.addEventListener('click', () => {
         const main =  document.querySelector('.main')
-        const head =  document.querySelector('.header')
+        const footer =  document.querySelector('.footer')
+        const scrollup =  document.querySelector('.scrollup')
         main.style.transform = 'scale(1)'
-        // head.style.transfrom = 'scale(1)'
+        footer.style.transfrom = 'scale(1)'
+        scrollup.style.transfrom = 'scale(1)'
     })
 
 
@@ -758,10 +764,12 @@ async function show_popup_series(series_card){
     x_icon.addEventListener('click', () => popup_container.classList.remove('show-popup'))
     x_icon.addEventListener('click', () => {
         const main =  document.querySelector('.main')
-        const head =  document.querySelector('.header')
+        const footer =  document.querySelector('.footer')
+        const scrollup =  document.querySelector('.scrollup')
         main.style.transform = 'scale(1)'
         
-        // head.style.transform = 'scale(1)'
+        footer.style.transform = 'scale(1)'
+        scrollup.style.transform = 'scale(1)'
     })
 
 
