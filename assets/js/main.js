@@ -487,7 +487,7 @@ async function show_popup (card) {
                     </div>
                     <div class="single-info">
                         <span>Add to favorites:</span>
-                        <span class="heart-icon">&#9829;</span>
+                        <span class="heart-icon"><i class="ri-heart-fill"></i></span>
                     </div>
                 </div>
                 <div class="right"><br>
@@ -708,7 +708,7 @@ async function show_popup_series(series_card){
                                         </div>
                                         <div class="single-info">
                                             <span>Add to favorites:</span>
-                                            <span class="heart-icon">&#9829;</span>
+                                            <span class="heart-icon"><i class="ri-heart-fill"></i></span>
                                         </div>
                                     </div>
                                     <div class="right">
