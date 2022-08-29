@@ -75,3 +75,28 @@ ________________________________________________________________________________
 ### --> Thanks
 
 ![image](https://user-images.githubusercontent.com/65014926/187123910-7648fdf1-c67d-4877-8c5f-7b705fe0f5ec.png)
+
+
+<br><br><br>
+#### Fetched Data Time : 29/August/2022 9:36 AM IST
+
+
+
+   ## Disclaimer   
+   
+   The Content Fetched By The Jomovies is not owned by Me , its fetched by API and the Content in above images is belong to their respective owners 
+   
+  # API Provider: <a href = "https://developers.themoviedb.org/3"> The Movie Database (TMDB) API </a> 
+         
+
+      
+   
+
+ ## Note
+ 
+   Some-time there is a clash between APIs so By that reason Jomovies can't  
+   able to complete your desired request so please visit after Some-time upto that it will be resolved by The Developer
+   If not resolved Then Drop a Mail here : ( risjiomaujio7654@gmail.com )
+
+
+
