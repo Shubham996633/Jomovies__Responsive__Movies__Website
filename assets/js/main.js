@@ -378,7 +378,7 @@ async function check(card){
         }else{
             const main =  document.querySelector('.main')
             main.style.transform = 'scale(0)'
-            const footer =  document.querySelector('.footer')
+            const footer =  document.querySelector('.footer__copy')
             footer.style.transform = 'scale(0)'
             const scrollup =  document.querySelector('.scrollup')
             scrollup.style.transform = 'scale(0)'
@@ -429,7 +429,7 @@ async function check_series(series_card){
         }else{
             const main =  document.querySelector('.main')
             main.style.transform = 'scale(0)'
-            const footer =  document.querySelector('.footer')
+            const footer =  document.querySelector('.footer__copy')
             footer.style.transform = 'scale(0)'
             const scrollup =  document.querySelector('.scrollup')
             scrollup.style.transform = 'scale(0)'
@@ -551,11 +551,11 @@ async function show_popup (card) {
     x_icon.addEventListener('click', () => popup_container.classList.remove('show-popup'))
     x_icon.addEventListener('click', () => {
         const main =  document.querySelector('.main')
-        const footer =  document.querySelector('.footer')
+        const footer =  document.querySelector('.footer__copy')
         const scrollup =  document.querySelector('.scrollup')
         main.style.transform = 'scale(1)'
-        footer.style.transfrom = 'scale(1)'
-        scrollup.style.transfrom = 'scale(1)'
+        footer.style.transform = 'scale(1)'
+        scrollup.style.transform = 'scale(1)'
     })
 
 
@@ -764,7 +764,7 @@ async function show_popup_series(series_card){
     x_icon.addEventListener('click', () => popup_container.classList.remove('show-popup'))
     x_icon.addEventListener('click', () => {
         const main =  document.querySelector('.main')
-        const footer =  document.querySelector('.footer')
+        const footer =  document.querySelector('.footer__copy')
         const scrollup =  document.querySelector('.scrollup')
         main.style.transform = 'scale(1)'
         
