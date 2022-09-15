@@ -500,7 +500,7 @@ async function show_popup (card) {
                         <img src="${image_path + movie.poster_path}" alt="">
                     </div>
                     <div class="single-info">
-                        <span>Add to favorites:</span>
+                        <span class = "addfavourite">Add to favorites:</span>
                         <span class="heart-icon"><i class="ri-heart-fill"></i></span>
                     </div>
                 </div>
@@ -564,15 +564,21 @@ async function show_popup (card) {
     const movie_ids = get_LS()
     for(let i = 0; i <= movie_ids.length; i++) {
         if (movie_ids[i] == movie_id) heart_icon.classList.add('change-color')
+
     }
 
     heart_icon.addEventListener('click', () => {
         if(heart_icon.classList.contains('change-color')) {
             remove_LS(movie_id)
             heart_icon.classList.remove('change-color')
+            document.querySelector('.addfavourite').innerHTML = `Add to favorites: `
+
         } else {
             add_to_LS(movie_id)
             heart_icon.classList.add('change-color')
+            document.querySelector('.addfavourite').innerHTML = `Added to favorites`
+
+
         }
         fetch_favorite_movies()
     })
@@ -723,7 +729,7 @@ async function show_popup_series(series_card){
                                             <img src="${image_path + series.poster_path}" alt="">
                                         </div>
                                         <div class="single-info">
-                                            <span>Add to favorites:</span>
+                                            <span class = "addfavourite">Add to favorites:</span>
                                             <span class="heart-icon"><i class="ri-heart-fill"></i></span>
                                         </div>
                                     </div>
@@ -778,15 +784,20 @@ async function show_popup_series(series_card){
     const series_ids = get_LS_series()
     for(let i = 0; i <= series_ids.length; i++) {
         if (series_ids[i] == series_id) heart_icon.classList.add('change-color')
+
     }
 
     heart_icon.addEventListener('click', () => {
         if(heart_icon.classList.contains('change-color')) {
             remove_LS_series(series_id)
             heart_icon.classList.remove('change-color')
+            document.querySelector('.addfavourite').innerHTML = `Add to favorites: `
+
         } else {
             add_to_LS_series(series_id)
             heart_icon.classList.add('change-color')
+            document.querySelector('.addfavourite').innerHTML = `Added to favorites`
+
         }
         fetch_favorite_series()
     })
